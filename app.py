@@ -63,4 +63,4 @@ def predict_charges(input_data: InsuranceInput):
     return {"predicted_charges": round(float(prediction), 2)}
 
 if __name__ == "__main__":
-    uvicorn.run(app, port=8000)
+    uvicorn.run(app, port=8000) 
